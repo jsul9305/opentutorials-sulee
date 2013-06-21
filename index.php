@@ -95,6 +95,7 @@ $topic = mysql_fetch_assoc($result);
             </div>
             <nav>
                 <ul>
+                	  <li><a href="add.php">토픽 추가</a></li>
                     <?php
                     $sql="select id,title from topic";
                     $result=mysql_query($sql);
